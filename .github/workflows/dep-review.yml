@@ -24,5 +24,4 @@ jobs:
         uses: actions/dependency-review-action@v4
         # Commonly enabled options, see https://github.com/actions/dependency-review-action#configuration-options for all available options.
         with:
-          # config-file: './.github/dependency-review-config.yml'
-          config-file: 'ferdle-org/dep-review/.github/dependency-review-config.yml'
+          config-file: './.github/dependency-review-config.yml'
